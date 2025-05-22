@@ -141,6 +141,20 @@ server.add_tool(
   WeatherToolHandler
 )
 ```
+## Cursor MCP config
+
+```
+{
+  "mcpServers": {
+    "github_cli": {
+      "command": "ruby",
+      "args": [
+        "/Users/km/MCPruby/mcp_github_server.rb"
+      ]
+    }
+  }
+}
+```
 
 ## License
 
